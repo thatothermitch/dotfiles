@@ -1,3 +1,6 @@
 [user]
 	name = Mitch Williams
-	email = mwilliams256@gamil.com    
+	email = mwilliams256@gamil.com
+
+[core]
+  excludesfile = ~/.global_gitignore
