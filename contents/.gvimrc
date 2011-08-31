@@ -39,8 +39,8 @@ set number
 
 " keyboard preferences
 " shift+enter instead of escape
-map <A-Space> <Esc>
-map! <A-Space> <Esc> 
+map  <Esc>
+map!  <Esc> 
 
 map ;t  :CommandT<CR>
 map ;c  :bdelete<CR>
