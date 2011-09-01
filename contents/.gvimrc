@@ -31,20 +31,21 @@ if version >= 500
 
 endif
 
-" Visual prefrences
-set shortmess+=I	" no message
-colorscheme camo	" nice colorscheme
-syntax on		" enable syntax highlighting
+" Visual Preferences
+"
+colorscheme camo 
+syntax on
 set number
 
-" keyboard preferences
-" shift+enter instead of escape
+" Keyboard Settings
 map  <Esc>
 map!  <Esc> 
 
-map ;t  :CommandT<CR>
-map ;c  :bdelete<CR>
 
-map ;j  :wincmd j<CR>
-map ;k  :wincmd k<CR> 
+map ;t :CommandT<CR>
+map ;T :CommandTFlush<CR> :CommandT<CR>
+
+nmap ;<TAB> :bnext!<CR>
+nmap ;<S-TAB> :bprev!<CR>
+nmap ;c :bdelete!<CR>
 
