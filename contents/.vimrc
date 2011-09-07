@@ -13,7 +13,6 @@ set hlsearch
 set shortmess+=I
 set nowrap
 
-filetype off
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
@@ -22,6 +21,7 @@ Bundle 'Command-T'
 Bundle 'vcscommand.vim'
 Bundle 'Color-Sampler-Pack'
 
+filetype on
 filetype plugin indent on     " required for vundle 
 
 set tabstop=2
